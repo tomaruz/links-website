@@ -1,14 +1,16 @@
-body{
+body {
     margin: 0;
 }
-h1{
+
+h1 {
     font-size: 56;
     line-height: 100px;
     margin-left: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-h4{
+
+h4 {
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 0;
@@ -17,7 +19,8 @@ h4{
     text-transform: uppercase;
     font-size: 16px;
 }
-p{
+
+p {
     margin-left: 20px;
     margin-left: 20px;
     margin-top: 4px;
@@ -26,26 +29,32 @@ p{
     font-weight: 200;
     font-size: 14;
     column-count: 2;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
-    color: black;  
+    color: black;
 }
-a:hover{
+
+a:hover {
     color: white;
 }
-a p{
+
+a p {
     background-color: rgba(255, 255, 255, 0);
     transition: .3s;
 }
-a p:hover{
+
+a p:hover {
     background-color: rgb(154, 152, 152);
 }
-a p:active{
+
+a p:active {
     background-color: rgb(60, 59, 60);
 }
-#container{
+
+#container {
     width: 800px;
     background-image: url("../images/photo-bkg.jpg");
     background-repeat: no-repeat;
@@ -56,7 +65,8 @@ a p:active{
     margin-right: auto;
     padding-bottom: 20px;
 }
-#masterhead{
+
+#masterhead {
     height: 100px;
     background-image: url("../images/buddha.jpg");
     background-repeat: no-repeat;
@@ -64,14 +74,17 @@ a p:active{
     background-position: right;
     background-size: cover;
 }
-#links-block{
+
+#links-block {
     width: 380px;
     white-space: nowrap;
 }
-#content-holder{
+
+#content-holder {
     position: relative;
 }
-#trans-flower{
+
+#trans-flower {
     position: absolute;
     width: 200px;
     right: 0;
