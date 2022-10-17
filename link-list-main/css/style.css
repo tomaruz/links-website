@@ -8,6 +8,7 @@ h1 {
     margin-left: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    color: rgb(66, 48, 24);
 }
 
 h4 {
@@ -42,7 +43,7 @@ a:hover {
 }
 
 a p {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(223, 141, 93, 0);
     transition: .3s;
 }
 
@@ -51,16 +52,16 @@ a p:hover {
 }
 
 a p:active {
-    background-color: rgb(60, 59, 60);
+    background-color: rgb(87, 65, 53);
 }
 
 #container {
     width: 800px;
-    background-image: url("../images/photo-bkg.jpg");
+    /*background-image: url("../images/photo-bkg.jpg");*/
     background-repeat: no-repeat;
     background-size: fixed;
     background-attachment: local;
-    background-color: rgb(196, 232, 255);
+    background-color:rgba(125, 99, 81, 0.169);
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
@@ -68,7 +69,7 @@ a p:active {
 
 #masterhead {
     height: 100px;
-    background-image: url("../images/buddha.jpg");
+    background-image: url("../images/leaf.jpg");
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     background-position: right;
