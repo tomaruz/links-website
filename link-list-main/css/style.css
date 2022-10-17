@@ -58,7 +58,7 @@ a p:active {
     width: 800px;
     background-image: url("../images/photo-bkg.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: fixed;
     background-attachment: local;
     background-color: rgb(196, 232, 255);
     margin-left: auto;
